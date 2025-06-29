@@ -1,0 +1,86 @@
+body{
+	background-color:white;
+	color:black;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, SunSans-Regular, Sans-Serif;
+	margin:4px;
+	margin-top:24px;
+	}
+#inhaltsverzeichnis{
+	font-size: 14px;
+	margin-top:20px;
+	}
+#inhaltsverzeichnis > ul > li
+	{
+	margin-top:4px;
+	list-style-type:square;
+	}
+
+@media screen{
+#box{
+	width:500px;
+	margin:0 auto;
+	}
+#print_ueberschrift{
+	display:none;
+	}
+.print {
+	display:none;
+	}
+.screen {
+	display:inline;
+	}
+}
+@media print{
+#print_ueberschrift{
+	display:block;
+	}
+.print {
+	display:inline;
+	}
+.screen {
+	display:none;
+	}
+}
+
+#box hr
+	{
+	border:0;
+	border-top:1px black solid;
+	}
+
+.korrektur
+	{
+	text-decoration:underline;
+	}
+.anmerkung{
+	font-style:italic;
+	}
+h1{
+	font-size:18px;
+	}
+.einschub{
+	font-size:10px;
+	margin-left:24px;
+	}
+
+.blog_subject{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:12px;
+	}
+h5{
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:-3px;
+	}
+#footer .donate {
+	border:0;
+	margin-top:2px;
+	}
+.unterstrichen {
+	text-decoration:underline;
+	}
+table {
+	width:100%;
+	}
